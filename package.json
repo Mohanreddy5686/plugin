@@ -1,0 +1,47 @@
+{
+  "name": "reactnextjssnippets",
+  "displayName": "Next.js React Snippets by iJS",
+  "description": "React Snippets (ES6) tailored for Next.js apps",
+  "publisher": "iJS",
+  "version": "1.6.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijsto/reactnextjssnippets"
+  },
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": "(Scott) Agirs Neminskis <scott@ijs.to>",
+  "keywords": [
+    "VSCode",
+    "Snippets",
+    "React",
+    "React Snippets",
+    "Nextjs",
+    "Nextjs Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-ts.json"
+      }
+    ]
+  }
+}
